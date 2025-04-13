@@ -3,6 +3,7 @@ import 'package:objectbox/objectbox.dart';
 
 @Entity()
 class Contact {
+  @Id(assignable: true)
   int id;
   String name;
   String phone;
